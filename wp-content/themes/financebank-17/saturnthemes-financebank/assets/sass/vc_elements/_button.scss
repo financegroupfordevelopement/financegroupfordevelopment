@@ -1,0 +1,28 @@
+.btn-download {
+    margin-bottom: 0 !important;
+    .vc_btn3.vc_btn3-color-grey.vc_btn3-style-flat {
+        &,
+        &:hover {
+            padding: 12px 125px 8px 10px !important;
+            background-color: #EC5036;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            i {
+                padding-right: 0 !important;
+                font-size: 20px !important;
+            }
+        }
+    }
+}
+
+.button-request-quote a {
+    padding: 15px 36px 12px 36px !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+
+.SaturnThemes-Button-Primary,
+.SaturnThemes-Button-White {
+  transition: all 0.25s !important;
+}

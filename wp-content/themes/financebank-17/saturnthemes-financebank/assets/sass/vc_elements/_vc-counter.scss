@@ -1,0 +1,24 @@
+.counter-container {
+    display: flex;
+    .counter-info {
+        margin-left: 20px;
+        .counter-wrapper {
+            margin-top: -5px;
+            margin-bottom: 5px;
+            word-spacing: -10px;
+            &,
+            h2 {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 1;
+            }
+            h2 {
+                display: inline-block;
+            }
+
+        }
+        .counter-title {
+            font-size: 18px;
+        }
+    }
+}

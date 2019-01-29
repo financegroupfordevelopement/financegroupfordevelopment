@@ -1,0 +1,146 @@
+%button {
+    display: inline-block;
+    padding: 16px 20px 14px 20px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    @extend %transition;
+    cursor: pointer;
+}
+
+.button-lg-fs {
+    padding: 17px 20px 15px 20px;
+    font-size: 16px !important;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+#respond #submit,
+.button {
+    @extend %button;
+}
+
+.button-outline {
+    @extend %button;
+    border-width: 3px;
+    border-style: solid;
+    background-color: transparent;
+    &:hover {
+        color: #fff;
+    }
+}
+
+.button-outline2 {
+    @extend %button;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    &:hover {
+        color: #fff;
+    }
+}
+
+.button-icon {
+    &:after {
+        @extend %fontawesome;
+        content: "\f054";
+        font-size: 10px;
+        margin-left: 7px;
+    }
+}
+
+%_button {
+    @extend %button;
+    border: 3px solid;
+    font-size: 14px;
+    &:hover {
+        background-color: transparent;
+    }
+}
+
+%_button-outline {
+    @extend %button;
+    border: 3px solid;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.button-primary {
+    @extend %_button;
+    color: #fff;
+}
+
+a.button-primary:visited {
+    color: #fff;
+}
+
+.button-primary-outline {
+    @extend %_button-outline;
+    &:hover {
+        color: #fff;
+    }
+}
+
+.button-secondary {
+    @extend %_button;
+    color: #fff;
+}
+
+a.button-secondary:visited {
+    color: #fff;
+}
+
+.button-secondary-outline {
+    @extend %_button-outline;
+    &:hover {
+        color: #fff;
+    }
+}
+
+.button-style1 {
+    @extend %_button;
+    background-color: #212121;
+    border-color: #212121;
+    color: #fff;
+}
+
+.button-style1-outline {
+    @extend %_button-outline;
+    border-color: #212121;
+    color: #212121;
+    &:hover {
+        color: #fff;
+        background-color: #212121;
+    }
+}
+
+.button-style2 {
+    @extend %_button;
+    background-color: #fff;
+    border-color: #fff;
+    color: #212121;
+    &:hover {
+        color: #fff;
+    }
+}
+
+.button-style2-outline {
+    @extend %_button-outline;
+    border-color: #fff;
+    color: #fff;
+    &:hover {
+        color: #212121;
+        background-color: #fff;
+    }
+}
+
+a.button-style2-outline:visited {
+    color: #fff;
+    &:hover {
+        color: #212121;
+    }
+}

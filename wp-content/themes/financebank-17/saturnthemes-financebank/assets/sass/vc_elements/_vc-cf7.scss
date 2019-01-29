@@ -1,0 +1,162 @@
+.wpcf7 {
+    form {
+        br {
+            display: none;
+        }
+        .form-rcb-submit-wrapper {
+            position: relative;
+            display: inline-block;
+            input[type="submit"] {
+                height: auto;
+                padding: 18px 38px 18px 26px;
+                border: none;
+                font-size: 14px;
+                line-height: 1;
+                color: #fff;
+            }
+            i {
+                position: absolute;
+                top: 20px;
+                right: 44px;
+                font-size: 10px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.form-request-call-back {
+    text-align: center;
+
+    .wpcf7-form-control-wrap {
+        position: relative;
+        display: inline-block;
+        margin-right: 18px;
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 270px;
+            background-color: transparent;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+            transition: all 0.3s;
+            &:hover {
+                background-color: #fff;
+                border-color: #fff;
+                color: #777;
+            }
+        }
+
+        ::-webkit-input-placeholder {
+            color: #fff;
+        }
+
+        :-ms-input-placeholder {
+            color: #fff;
+        }
+        ::-moz-placeholder {
+            color: #fff;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            padding: 11px 15px 10px 15px;
+        }
+
+        .wpcf7-not-valid-tip {
+            position: absolute;
+        }
+
+        &.subject {
+            &:after {
+                content: "\f078";
+                @extend .font-awesome;
+                @extend %translate-center-y;
+                right: 20px;
+                font-size: 10px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .form-request-call-back {
+        .wpcf7-form-control-wrap {
+            input, select {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.form-subscription-sidebar {
+    padding: 38px 20px;
+    background: url("../img/page-sidebar-subscription-bg.jpg") no-repeat;
+    background-size: cover;
+
+    h3 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .form-subscription-description {
+        margin-top: 20px;
+        color: #CCCCCC;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        display: block;
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 16px;
+        color: #777777;
+        border: none;
+    }
+
+    .form-rcb-submit-wrapper {
+        input {
+            padding: 18px 39px 18px 25px !important;
+            font-size: 16px !important;
+        }
+        i {
+            right: 46px !important;
+        }
+    }
+}
+
+.form-feedback {
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 10px 20px;
+        border: 2px solid #EEEEEE;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        display: block;
+        width: 100%;
+        border: 2px solid #EEEEEE;
+    }
+
+    textarea {
+        margin-bottom: 27px;
+        height: 130px;
+    }
+
+    .form-rcb-submit-wrapper {
+        input[type="submit"] {
+            padding: 18px 39px 18px 25px !important;
+            font-size: 14px !important;
+        }
+        i {
+            right: 42px !important;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.contact-details {
+    ul {
+        list-style: none;
+        li {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            &:not(:last-child) {
+                border-bottom: 1px solid #EEEEEE;
+            }
+            i {
+                position: relative;
+                display: inline-block;
+                margin-right: 10px;
+                width: 36px;
+                height: 36px;
+                font-size: 18px;
+                background-color: #DDDDDD;
+                color: #000000;
+                &:before {
+                    @extend %translate-center;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,3067 @@
+# Copyright (C) 2017 saturnthemes-financebank
+# This file is distributed under the same license as the saturnthemes-financebank package.
+msgid ""
+msgstr ""
+"Project-Id-Version: saturnthemes-financebank\n"
+"Report-Msgid-Bugs-To: http://saturnthemes.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Language-Team: SaturnThemes <saturnthemes@gmail.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/saturnthemes-financebank/404.php:19
+msgid "404! That page can&rsquo;t be found."
+msgstr ""
+
+#: src/saturnthemes-financebank/404.php:20
+msgid "The page you are looking for does not exist. Return to the "
+msgstr ""
+
+#: src/saturnthemes-financebank/404.php:20
+msgid "home page."
+msgstr ""
+
+#: src/saturnthemes-financebank/comments.php:25
+msgid "%1$s Comments"
+msgstr ""
+
+#: src/saturnthemes-financebank/comments.php:30, src/saturnthemes-financebank/comments.php:54
+msgid "Comment navigation"
+msgstr ""
+
+#: src/saturnthemes-financebank/comments.php:33, src/saturnthemes-financebank/comments.php:57
+msgid "Older Comments"
+msgstr ""
+
+#: src/saturnthemes-financebank/comments.php:34, src/saturnthemes-financebank/comments.php:58
+msgid "Newer Comments"
+msgstr ""
+
+#: src/saturnthemes-financebank/comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#: src/saturnthemes-financebank/comments.php:78, src/saturnthemes-financebank/includes/vc.php:1791
+msgid "Name"
+msgstr ""
+
+#: src/saturnthemes-financebank/comments.php:80, src/saturnthemes-financebank/includes/vc.php:1823
+msgid "Email"
+msgstr ""
+
+#: src/saturnthemes-financebank/comments.php:82
+msgid "Website"
+msgstr ""
+
+#: src/saturnthemes-financebank/comments.php:87
+msgid "Post Comment"
+msgstr ""
+
+#: src/saturnthemes-financebank/comments.php:89
+msgid "Write a comment"
+msgstr ""
+
+#: src/saturnthemes-financebank/comments.php:94
+msgid "Comment"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/admin/class-saturnthemes-admin.php:56
+msgid "Thanks for choosing %s! You can read hints and tips on how get the most out of your new theme on the %swelcome screen%s."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/admin/class-saturnthemes-admin.php:57
+msgid "Get started with %s"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/admin/class-saturnthemes-admin.php:66, src/saturnthemes-financebank/core/includes/admin/class-saturnthemes-admin.php:66
+msgid "%s Welcome"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/admin/templates/welcome-page.php:2
+msgid "Welcome to %s!"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/custom-sidebar.php:6
+msgid "Custom Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/custom-sidebar.php:8
+msgid "Add Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/custom-sidebar.php:76, src/saturnthemes-financebank/core/includes/custom-sidebar.php:103
+msgid "No sidebar name"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/custom-sidebar.php:95
+msgid "Added new sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/custom-sidebar.php:122
+msgid "Removed sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:334, src/saturnthemes-financebank/includes/plugin-registration.php:79
+msgid "Install Required Plugins"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:335, src/saturnthemes-financebank/includes/plugin-registration.php:80
+msgid "Install Plugins"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:337, src/saturnthemes-financebank/includes/plugin-registration.php:81
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:340, src/saturnthemes-financebank/includes/plugin-registration.php:83
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:392, src/saturnthemes-financebank/includes/plugin-registration.php:105
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:393, src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:910, src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2619, src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3666
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:394, src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3245, src/saturnthemes-financebank/includes/plugin-registration.php:106
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:395, src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3038, src/saturnthemes-financebank/includes/plugin-registration.php:107
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:397, src/saturnthemes-financebank/includes/plugin-registration.php:108
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:399, src/saturnthemes-financebank/includes/plugin-registration.php:110
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:401, src/saturnthemes-financebank/includes/plugin-registration.php:112
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:404, src/saturnthemes-financebank/includes/plugin-registration.php:114
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:605
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:606
+msgid "Update Required"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:1019
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:1019, src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:1022
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:1022
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:1206, src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3034
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2068
+msgid "TGMPA v%s"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2359
+msgid "Required"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2362
+msgid "Recommended"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2378
+msgid "WordPress Repository"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2381
+msgid "External Source"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2384
+msgid "Pre-Packaged"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2401
+msgid "Not Installed"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2405
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2407
+msgid "Active"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2413
+msgid "Required Update not Available"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2416
+msgid "Requires Update"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2419
+msgid "Update recommended"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2428
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2474
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2478
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2482
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2486
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2568
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2576
+msgid "Installed version:"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2584
+msgid "Minimum required version:"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2596
+msgid "Available version:"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2619
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2633
+msgid "Plugin"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2634
+msgid "Source"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2635, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:167
+msgid "Type"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2639
+msgid "Version"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2640
+msgid "Status"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2689
+msgid "Install %2$s"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2694
+msgid "Update %2$s"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2700
+msgid "Activate %2$s"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2770
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2803
+msgid "Install"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2809
+msgid "Update"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2812
+msgid "Activate"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2843
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2845
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2886
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2888
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:2994
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3020
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3244
+msgid "Plugin activation failed."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3584
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3587
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3589
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3593
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3595
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3595, src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3603
+msgid "Show Details"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3595, src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3603
+msgid "Hide Details"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3596
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3598
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3601
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3603
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3604
+msgid "All installations have been completed."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/libraries/class-tmg-plugin-activation.php:3606
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:66
+msgid "%s (Invalid)"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:70
+msgid "%s (Pending)"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:83
+msgid "sub item"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:98
+msgid "Move up"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:111
+msgid "Move down"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:113, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:115
+msgid "Edit Menu Item"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:124, src/saturnthemes-financebank/includes/customizer/settings/header/contact-details.php:65, src/saturnthemes-financebank/includes/customizer/settings/header/request-a-quote.php:35, src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:43, src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:92
+msgid "URL"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:131
+msgid "Navigation Label"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:137
+msgid "Title Attribute"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:144
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:149
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:156
+msgid "Don't link"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:162
+msgid "Don't show"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:169
+msgid "Narrow"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:170, src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:25, src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:38, src/saturnthemes-financebank/includes/customizer/settings/post/single.php:25, src/saturnthemes-financebank/includes/customizer/settings/post/single.php:38, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:21, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:34, src/saturnthemes-financebank/includes/customizer/settings/site/site_layout.php:21, src/saturnthemes-financebank/includes/customizer/settings/site/site_layout.php:34, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:21, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:34, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:25, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:38, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/single.php:25, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/single.php:38, src/saturnthemes-financebank/includes/metabox.php:42, src/saturnthemes-financebank/includes/metabox.php:52
+msgid "Wide"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:171
+msgid "Full Width"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:177
+msgid "Sub-Menu Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:177
+msgid "Only with \"Wide\" menu type"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:180, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:199
+msgid "2 Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:181, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:200
+msgid "3 Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:182, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:201
+msgid "4 Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:183, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:202
+msgid "5 Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:184, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:203
+msgid "6 Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:185, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:204
+msgid "7 Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:186, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:205
+msgid "8 Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:187, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:206
+msgid "9 Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:188, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:207
+msgid "10 Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:189, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:208
+msgid "11 Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:190, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:209
+msgid "12 Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:196
+msgid "Columns"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:215
+msgid "Sub-Menu Position"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:218, src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:21
+msgid "Left"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:219, src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:23
+msgid "Right"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:225, src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:103, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:78, src/saturnthemes-financebank/includes/customizer/settings/site/page-title.php:22, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:78, src/saturnthemes-financebank/includes/metabox.php:114
+msgid "Background Image"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:227
+msgid "Upload Image"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:228
+msgid "Remove Image"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:233, src/saturnthemes-financebank/includes/metabox.php:134
+msgid "Background Position"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:236, src/saturnthemes-financebank/includes/metabox.php:139
+msgid "Left Top"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:237, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:238, src/saturnthemes-financebank/includes/metabox.php:140
+msgid "Left Center"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:239, src/saturnthemes-financebank/includes/metabox.php:141
+msgid "Left Bottom"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:240, src/saturnthemes-financebank/includes/metabox.php:142
+msgid "Center Top"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:241, src/saturnthemes-financebank/includes/metabox.php:143
+msgid "Center Center"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:242, src/saturnthemes-financebank/includes/metabox.php:144
+msgid "Center Bottom"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:243, src/saturnthemes-financebank/includes/metabox.php:145
+msgid "Right Top"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:244, src/saturnthemes-financebank/includes/metabox.php:146
+msgid "Right Center"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:245, src/saturnthemes-financebank/includes/metabox.php:147
+msgid "Right Bottom"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:251, src/saturnthemes-financebank/includes/metabox.php:121
+msgid "Background Repeat"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:254, src/saturnthemes-financebank/includes/metabox.php:126
+msgid "No Repeat"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:255
+msgid "Repeat All"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:256, src/saturnthemes-financebank/includes/metabox.php:128
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:257, src/saturnthemes-financebank/includes/metabox.php:129
+msgid "Repeat Vertically"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:263, src/saturnthemes-financebank/includes/customizer/settings/header/contact-details.php:55, src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:33, src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:82
+msgid "Icon Class"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:269
+msgid "Badge Label"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:275, src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:281
+msgid "Badge Text Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:287
+msgid "Custom Widget Position"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:298
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:304, src/saturnthemes-financebank/includes/vc.php:176, src/saturnthemes-financebank/includes/vc.php:1241, src/saturnthemes-financebank/includes/vc.php:1805
+msgid "Description"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:306
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:312
+msgid "Move"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:313
+msgid "Up one"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:314
+msgid "Down one"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:317
+msgid "To the top"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:324
+msgid "Original: %s"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:337
+msgid "Remove"
+msgstr ""
+
+#: src/saturnthemes-financebank/core/includes/mega-menu/class-walker-nav-menu-edit.php:338
+msgid "Cancel"
+msgstr ""
+
+#: src/saturnthemes-financebank/header/header_01.php:203, src/saturnthemes-financebank/header/header_01.php:207, src/saturnthemes-financebank/header/header_02.php:185, src/saturnthemes-financebank/header/header_02.php:189
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: src/saturnthemes-financebank/header/header_01.php:204, src/saturnthemes-financebank/header/header_02.php:186
+msgctxt "label"
+msgid "Search:"
+msgstr ""
+
+#: src/saturnthemes-financebank/header/header_01.php:212, src/saturnthemes-financebank/header/header_02.php:194
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/assets.php:52
+msgid "Days"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/assets.php:53
+msgid "Hours"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/assets.php:54
+msgid "Mins"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/assets.php:55
+msgid "Secs"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:9, src/saturnthemes-financebank/includes/customizer/settings/site/site_breadcrumb.php:25
+msgid "Home"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:10
+msgid "Search Result of \"%s\""
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:11
+msgid "404 Not Found"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:12
+msgctxt "category label"
+msgid "%s"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:13
+msgctxt "tag label"
+msgid "%s"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:14
+msgctxt "taxonomy label"
+msgid "%s"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:15
+msgctxt "author label"
+msgid "%s"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:16
+msgctxt "attachment label"
+msgid "%s"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:17
+msgctxt "year label"
+msgid "%s"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:18
+msgctxt "month label"
+msgid "%s"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:19
+msgctxt "day label"
+msgid "%s"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:20
+msgctxt "post type label"
+msgid "%s"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/breadcrumb.php:21
+msgid " &gt; "
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:29
+msgid "General Settings"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:33
+msgid "Header Settings"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:37
+msgid "Footer Settings"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:41
+msgid "Woocommerce Settings"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:45
+msgid "Post Settings"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:49
+msgid "Service Settings"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:53
+msgid "Staff Settings"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:62
+msgid "Theme Layout"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:67
+msgid "Logo and Icons"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:72
+msgid "Typography"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:77, src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:101
+msgid "Colors"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:82
+msgid "Page Title"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:87
+msgid "Breadcrumb"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:92
+msgid "Social Networks"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:97
+msgid "Back to Top"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:104, src/saturnthemes-financebank/includes/customizer/customizer.php:178
+msgid "Preset"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:109, src/saturnthemes-financebank/includes/customizer/customizer.php:183, src/saturnthemes-financebank/includes/customizer/settings/header/menu-dropdown.php:8
+msgid "General"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:114
+msgid "Top Bar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:119
+msgid "Primary Menu"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:124
+msgid "Sub Menu"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:129, src/saturnthemes-financebank/includes/customizer/settings/header/request-a-quote.php:8
+msgid "Request A Quote"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:134, src/saturnthemes-financebank/includes/vc.php:1595
+msgid "Contact Details"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:139, src/saturnthemes-financebank/includes/customizer/customizer.php:193, src/saturnthemes-financebank/includes/vc.php:1645
+msgid "Social Icons"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:146
+msgid "Post Archives"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:151
+msgid "Single Post"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:158
+msgid "Service Archives"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:165
+msgid "Staff Archives"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:172, src/saturnthemes-financebank/includes/metabox.php:16
+msgid "Page Settings"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:188
+msgid "Copyright"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:200
+msgid "Product Archives"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:205
+msgid "Single Product"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/customizer.php:212
+msgid "Custom Code"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/custom_code.php:8
+msgid "Custom CSS:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/custom_code.php:22
+msgid "Custom JS:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/footer_copyright.php:8
+msgid "Show Copyright"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/footer_copyright.php:9
+msgid "Enabling this option will display copyright area"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/footer_copyright.php:18
+msgid "Content"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/footer_copyright.php:21
+msgid "Copyright &copy; 2016 Finance Bank WordPress Theme by <a href=\"http://.financebank.saturnthemes.com\">SaturnThemes</a>"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/footer_copyright.php:34, src/saturnthemes-financebank/includes/customizer/settings/footer/footer_general.php:21, src/saturnthemes-financebank/includes/customizer/settings/footer/social-icon.php:44, src/saturnthemes-financebank/includes/customizer/settings/header/contact-details.php:74, src/saturnthemes-financebank/includes/customizer/settings/header/request-a-quote.php:44, src/saturnthemes-financebank/includes/customizer/settings/header/social-icons.php:70, src/saturnthemes-financebank/includes/customizer/settings/site/page-title.php:56, src/saturnthemes-financebank/includes/customizer/settings/site/site_breadcrumb.php:38, src/saturnthemes-financebank/includes/vc.php:158, src/saturnthemes-financebank/includes/vc.php:828, src/saturnthemes-financebank/includes/vc.php:1360
+msgid "Style"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/footer_copyright.php:42, src/saturnthemes-financebank/includes/customizer/settings/header/contact-details.php:83
+msgid "Separator Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/footer_general.php:8
+msgid "Footer Type"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/footer_general.php:9
+msgid "Choose the footer type you want"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/footer_general.php:29, src/saturnthemes-financebank/includes/customizer/settings/header/header_general.php:47, src/saturnthemes-financebank/includes/customizer/settings/header/menu-dropdown.php:16, src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:86, src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:182, src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:109
+msgid "Background Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/footer_general.php:44, src/saturnthemes-financebank/includes/vc.php:867, src/saturnthemes-financebank/includes/vc.php:1235
+msgid "Title Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/footer_general.php:60
+msgid "Text Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/footer_general.php:76
+msgid "Link Color Hover"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/social-icon.php:8, src/saturnthemes-financebank/includes/customizer/settings/header/social-icons.php:25
+msgid "Show Facebook Icon"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/social-icon.php:17, src/saturnthemes-financebank/includes/customizer/settings/header/social-icons.php:34
+msgid "Show Twitter Icon"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/social-icon.php:26, src/saturnthemes-financebank/includes/customizer/settings/header/social-icons.php:43
+msgid "Show Instagram Icon"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/social-icon.php:35, src/saturnthemes-financebank/includes/customizer/settings/header/social-icons.php:52
+msgid "Show Google+ Icon"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/footer/social-icon.php:52, src/saturnthemes-financebank/includes/customizer/settings/header/menu-dropdown.php:69, src/saturnthemes-financebank/includes/customizer/settings/header/request-a-quote.php:52, src/saturnthemes-financebank/includes/customizer/settings/header/request-a-quote.php:80, src/saturnthemes-financebank/includes/customizer/settings/header/social-icons.php:78, src/saturnthemes-financebank/includes/customizer/settings/site/page-title.php:86, src/saturnthemes-financebank/includes/customizer/settings/site/site_breadcrumb.php:53, src/saturnthemes-financebank/includes/vc.php:696, src/saturnthemes-financebank/includes/vc.php:1194
+msgid "Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/contact-details.php:8
+msgid "Show Contact Details"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/contact-details.php:17, src/saturnthemes-financebank/includes/customizer/settings/header/social-icons.php:17
+msgid "Details"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/contact-details.php:29
+msgid "Send us a Message"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/contact-details.php:35
+msgid "Give us a Call"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/contact-details.php:41
+msgid "Opening Hours"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/contact-details.php:50, src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:87, src/saturnthemes-financebank/includes/vc.php:169, src/saturnthemes-financebank/includes/vc.php:195, src/saturnthemes-financebank/includes/vc.php:842, src/saturnthemes-financebank/includes/vc.php:1228, src/saturnthemes-financebank/includes/vc.php:1352, src/saturnthemes-financebank/includes/vc.php:1754, src/saturnthemes-financebank/includes/vc.php:1866, src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:83, src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:97
+msgid "Title"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/contact-details.php:60, src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:38
+msgid "Information"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/header_general.php:8, src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:12, src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:60, src/saturnthemes-financebank/includes/customizer/settings/post/single.php:12, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:8, src/saturnthemes-financebank/includes/customizer/settings/site/site_layout.php:8, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:8, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:12, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/single.php:12
+msgid "Layout"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/header_general.php:16
+msgid "Header Layout"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/header_general.php:17
+msgid "Choose the header layout you want"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/header_general.php:30
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/header_general.php:39
+msgid "Style & Colors"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/header_general.php:62
+msgid "Show Gradient Background"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/header_general.php:78
+msgid "Bottom Background Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/header_search.php:8
+msgid "Show Search Form"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/menu-dropdown.php:31, src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:139, src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:234
+msgid "Icon Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/menu-dropdown.php:46
+msgid "Border Bottom Color on Hover"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/menu-dropdown.php:61
+msgid "Mega Menu"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/preset.php:8
+msgid "Header Preset"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/preset.php:11
+msgid "Choose header style from our predefined presets"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/preset.php:15
+msgid "Preset 1"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/preset.php:21
+msgid "Preset 2"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/preset.php:42
+msgid "Preset 3"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:8
+msgid "Primary Menu General Style"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:16
+msgid "Align"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:22
+msgid "Center"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:36
+msgid "Menu Item Style"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:44
+msgid "Font"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:71
+msgid "Spacing"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:109, src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:204, src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:164, src/saturnthemes-financebank/includes/customizer/settings/site/site_style.php:141
+msgid "Link Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:124, src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:219
+msgid "Sub Menu Arrow Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:154, src/saturnthemes-financebank/includes/vc.php:99
+msgid "Text Transform"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:159, src/saturnthemes-financebank/includes/vc.php:102, src/saturnthemes-financebank/includes/vc.php:453
+msgid "None"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:160, src/saturnthemes-financebank/includes/vc.php:104
+msgid "Uppercase"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:161, src/saturnthemes-financebank/includes/vc.php:105
+msgid "Lowercase"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:174
+msgid "Menu Item Style on Hover"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/primary-menu.php:249
+msgid "Border Bottom on Hover/Active"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/request-a-quote.php:17
+msgid "Show Request a quote"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/request-a-quote.php:26, src/saturnthemes-financebank/includes/customizer/settings/site/site_font.php:13, src/saturnthemes-financebank/includes/vc.php:586, src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:131
+msgid "Text"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/request-a-quote.php:29
+msgid "REQUEST A QUOTE"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/request-a-quote.php:72
+msgid "Style on hover"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/social-icons.php:8
+msgid "Show All Icons"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/social-icons.php:61
+msgid "Show Linkedin Icon"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:8, src/saturnthemes-financebank/includes/vc.php:1819, src/saturnthemes-financebank/includes/vc.php:1826
+msgid "Contact Information"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:52
+msgid "Links"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:65
+msgid "Extras"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:70
+msgid "Purchase"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:75
+msgid "Documentation"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:132, src/saturnthemes-financebank/includes/vc.php:1217
+msgid "Border Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/header/top-bar.php:187
+msgid "Link Color on hover"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/page.php:8
+msgid "Hide Share Buttons"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:20, src/saturnthemes-financebank/includes/customizer/settings/post/single.php:20, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:16, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:16, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:20, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/single.php:20, src/saturnthemes-financebank/includes/metabox.php:37
+msgid "Page Layout"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:26, src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:39, src/saturnthemes-financebank/includes/customizer/settings/post/single.php:26, src/saturnthemes-financebank/includes/customizer/settings/post/single.php:39, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:22, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:35, src/saturnthemes-financebank/includes/customizer/settings/site/site_layout.php:22, src/saturnthemes-financebank/includes/customizer/settings/site/site_layout.php:35, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:22, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:35, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:26, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:39, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/single.php:26, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/single.php:39, src/saturnthemes-financebank/includes/metabox.php:43, src/saturnthemes-financebank/includes/metabox.php:53
+msgid "Boxed"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:33, src/saturnthemes-financebank/includes/customizer/settings/post/single.php:33, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:29, src/saturnthemes-financebank/includes/customizer/settings/site/site_layout.php:29, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:29, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:33, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/single.php:33, src/saturnthemes-financebank/includes/metabox.php:47
+msgid "Content Layout"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:46, src/saturnthemes-financebank/includes/customizer/settings/post/single.php:46, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:42, src/saturnthemes-financebank/includes/customizer/settings/site/site_layout.php:42, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:42, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:46, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/single.php:46, src/saturnthemes-financebank/includes/metabox.php:57
+msgid "Sidebar Position"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:51, src/saturnthemes-financebank/includes/customizer/settings/post/single.php:51, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:47, src/saturnthemes-financebank/includes/customizer/settings/site/site_layout.php:47, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:47, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:51, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/single.php:51, src/saturnthemes-financebank/includes/metabox.php:62
+msgid "No Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:52, src/saturnthemes-financebank/includes/customizer/settings/post/single.php:52, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:48, src/saturnthemes-financebank/includes/customizer/settings/site/site_layout.php:48, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:48, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:52, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/single.php:52, src/saturnthemes-financebank/includes/metabox.php:63
+msgid "Left Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:53, src/saturnthemes-financebank/includes/customizer/settings/post/single.php:53, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:49, src/saturnthemes-financebank/includes/customizer/settings/site/site_layout.php:49, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:49, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:53, src/saturnthemes-financebank/includes/customizer/settings/woocommerce/single.php:53, src/saturnthemes-financebank/includes/metabox.php:64
+msgid "Right Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:68
+msgid "Blog Archive Layout"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:73
+msgid "Standard Post Layout"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:74
+msgid "Grid Post Layout"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:81
+msgid "Homepage/Archive Post Summary Type"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:86
+msgid "Full Post"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:87
+msgid "Use Read More Tag"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:88
+msgid "Use Excerpt"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:95, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:70, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:70
+msgid "Big Title"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/post/archives.php:104, src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:79, src/saturnthemes-financebank/includes/customizer/settings/site/page-title.php:23, src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:79
+msgid "Choose a default image to display"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/service/archives.php:56
+msgid "Number of services per row"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/back-to-top.php:8
+msgid "Show Back to Top"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/back-to-top.php:9
+msgid "Enabling this option will display Back to Top"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/page-title.php:12, src/saturnthemes-financebank/includes/metabox.php:163
+msgid "Show Page Title"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/page-title.php:13
+msgid "Enabling this option will display page title"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/page-title.php:39
+msgid "Show overlay"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/page-title.php:40
+msgid "Choose a default image to overlay"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/page-title.php:71
+msgid "Title Spacing"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_breadcrumb.php:12
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_breadcrumb.php:13
+msgid "Enabling this option will display breadcrumb"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_breadcrumb.php:22
+msgid "\"Home\" text"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_font.php:40
+msgid "Heading"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_font.php:66
+msgid "Heading sizes"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_font.php:67
+msgid "H1"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_font.php:97
+msgid "H2"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_font.php:127
+msgid "H3"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_font.php:157
+msgid "H4"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_font.php:187
+msgid "H5"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_font.php:217
+msgid "H6"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_layout.php:16
+msgid "Page Wrapper"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_logo.php:8
+msgid "Logo"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_logo.php:9
+msgid "Choose a default logo image to display"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_logo.php:18
+msgid "Retina"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_logo.php:19
+msgid "Choose a image for retina logo"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_logo.php:28
+msgid "Upload Favicon"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_logo.php:29
+msgid "Choose a default favicon to display"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_logo.php:38
+msgid "Apple Touch Icon"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_logo.php:39
+msgid "File must be .png format. Optimal dimensions: 152px x 152px"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_style.php:8
+msgid "Primary Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_style.php:62
+msgid "Secondary Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_style.php:103
+msgid "Body Text Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_style.php:118
+msgid "Heading Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_style.php:164
+msgid "Link Hover Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_style.php:187
+msgid "Button Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/site_style.php:210
+msgid "Button Hover Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/social-networks.php:12, src/saturnthemes-financebank/includes/vc.php:1830
+msgid "Facebook"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/social-networks.php:28, src/saturnthemes-financebank/includes/vc.php:1836
+msgid "Twitter"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/social-networks.php:44, src/saturnthemes-financebank/includes/vc.php:1842
+msgid "Instagram"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/social-networks.php:60
+msgid "Google +"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/site/social-networks.php:76
+msgid "Linkedin"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/staff/archives.php:56
+msgid "Number of staffs per row"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:60
+msgid "Show Rating"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/customizer/settings/woocommerce/archives.php:61
+msgid "Enable this setting to show Rating"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/extras.php:79, src/saturnthemes-financebank/includes/metabox.php:29, src/saturnthemes-financebank/includes/metabox.php:41, src/saturnthemes-financebank/includes/metabox.php:51, src/saturnthemes-financebank/includes/metabox.php:61, src/saturnthemes-financebank/includes/metabox.php:125, src/saturnthemes-financebank/includes/metabox.php:138, src/saturnthemes-financebank/includes/metabox.php:156
+msgid "Select"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/init.php:54
+msgid "Main Menu"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/init.php:55
+msgid "Social Profile Links"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:68, src/saturnthemes-financebank/includes/widgets-registration.php:4
+msgid "Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:107
+msgid "Overlay Header"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:127
+msgid "Repeat"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:152
+msgid "Background Attachment"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:157
+msgid "Scroll"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:158
+msgid "Fixed"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:167, src/saturnthemes-financebank/includes/metabox.php:184, src/saturnthemes-financebank/includes/metabox.php:195, src/saturnthemes-financebank/includes/vc.php:125, src/saturnthemes-financebank/includes/vc.php:506, src/saturnthemes-financebank/includes/vc.php:525, src/saturnthemes-financebank/includes/vc.php:533, src/saturnthemes-financebank/includes/vc.php:602, src/saturnthemes-financebank/includes/vc.php:875, src/saturnthemes-financebank/includes/vc.php:882, src/saturnthemes-financebank/includes/vc.php:889, src/saturnthemes-financebank/includes/vc.php:1519
+msgid "Yes"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:168, src/saturnthemes-financebank/includes/metabox.php:185, src/saturnthemes-financebank/includes/metabox.php:196
+msgid "No"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:174
+msgid "Page Title's Background Image"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:180
+msgid "Show Header Contact Details"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:191
+msgid "Show Header Social Icons"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:208
+msgid "Extra Information"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:216
+msgid "Company"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/metabox.php:217
+msgid "Company of testimonial author"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:50
+msgid "WooCommerce - excelling eCommerce"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:84
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:86
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:88
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:90
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:92
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:94
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:96
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:98
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:100
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:102
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:103
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/includes/plugin-registration.php:104
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:319
+msgid "Previous"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:320
+msgid "Next"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:376
+msgid "Post navigation"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:413
+msgid "Related Posts"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:475
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:488
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:490, src/saturnthemes-financebank/includes/template-tags.php:504, src/saturnthemes-financebank/includes/template-tags.php:630
+msgid "%1$s"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:518
+msgid "0 Comment"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:518
+msgid "1 Comment"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:518
+msgid "% Comments"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:624
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:628
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:631
+msgid "(Edit)"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/template-tags.php:681
+msgid "Read more<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vafpress.php:9
+msgid "Quote"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vafpress.php:30
+msgid "Gallery Type"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vafpress.php:33
+msgid "Slider"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vafpress.php:36
+msgid "Masonry"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:9
+msgid "Financebank Options"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:11
+msgid "Animation"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:14
+msgid "Animation Type"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:21
+msgid "Animation Duration"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:23, src/saturnthemes-financebank/includes/vc.php:31
+msgid "numerical value (unit: seconds)"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:29
+msgid "Animation Delay"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:38
+msgid "Wrap as Container"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:47
+msgid "Background Overlay"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:50
+msgid "Choose an overlay color for background of row. Leave blank for none."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:71
+msgid "Font Weight"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:74
+msgid "Extra-Light"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:75
+msgid "Light"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:76, src/saturnthemes-financebank/includes/vc.php:90
+msgid "Normal"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:77
+msgid "Semi-Bold"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:78
+msgid "Bold"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:79
+msgid "Extra-Bold"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:87
+msgid "Font Style"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:91
+msgid "Italic"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:103
+msgid "Capitalize"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:113
+msgid "Letter Spacing"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:118
+msgid "For example: 0.5px"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:122
+msgid "Heading Has Icon"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:124
+msgid "Display check icon on heading."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:131, src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:97
+msgid "Width"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:134
+msgid "Width of line chart"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:139, src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:105
+msgid "Height"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:142
+msgid "Height of line chart"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:152
+msgid "Financebank Info Box"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:161, src/saturnthemes-financebank/includes/vc.php:576, src/saturnthemes-financebank/includes/vc.php:831, src/saturnthemes-financebank/includes/vc.php:1124, src/saturnthemes-financebank/includes/vc.php:1364
+msgid "Style 1"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:162, src/saturnthemes-financebank/includes/vc.php:578, src/saturnthemes-financebank/includes/vc.php:832, src/saturnthemes-financebank/includes/vc.php:1125, src/saturnthemes-financebank/includes/vc.php:1365
+msgid "Style 2"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:164
+msgid "Style of info box"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:171
+msgid "Enter the title of this info box."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:179
+msgid "Enter the description for this info box."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:183
+msgid "Image"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:186, src/saturnthemes-financebank/includes/vc.php:1292
+msgid "Select image from media library."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:190, src/saturnthemes-financebank/includes/vc.php:1254
+msgid "Apply link to:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:193, src/saturnthemes-financebank/includes/vc.php:1257
+msgid "No Link"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:194, src/saturnthemes-financebank/includes/vc.php:1258
+msgid "Complete Box"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:196, src/saturnthemes-financebank/includes/vc.php:1260
+msgid "Display Read More"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:201, src/saturnthemes-financebank/includes/vc.php:1266
+msgid "Add Link"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:204, src/saturnthemes-financebank/includes/vc.php:1269
+msgid "Add a custom link or select existing page. You can remove existing link as well."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:209, src/saturnthemes-financebank/includes/vc.php:1274
+msgid "Read More Text"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:212, src/saturnthemes-financebank/includes/vc.php:1277
+msgid "Customize the read more text."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:217, src/saturnthemes-financebank/includes/vc.php:405, src/saturnthemes-financebank/includes/vc.php:545, src/saturnthemes-financebank/includes/vc.php:797, src/saturnthemes-financebank/includes/vc.php:901, src/saturnthemes-financebank/includes/vc.php:1030, src/saturnthemes-financebank/includes/vc.php:1296, src/saturnthemes-financebank/includes/vc.php:1711, src/saturnthemes-financebank/includes/vc.php:1767, src/saturnthemes-financebank/includes/vc.php:1810
+msgid "Extra class name"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:219, src/saturnthemes-financebank/includes/vc.php:407, src/saturnthemes-financebank/includes/vc.php:547, src/saturnthemes-financebank/includes/vc.php:799, src/saturnthemes-financebank/includes/vc.php:1032, src/saturnthemes-financebank/includes/vc.php:1298, src/saturnthemes-financebank/includes/vc.php:1713, src/saturnthemes-financebank/includes/vc.php:1769, src/saturnthemes-financebank/includes/vc.php:1812
+msgid "Style particular content element differently - add a class name and refer to it in custom CSS."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:223, src/saturnthemes-financebank/includes/vc.php:411, src/saturnthemes-financebank/includes/vc.php:613, src/saturnthemes-financebank/includes/vc.php:906, src/saturnthemes-financebank/includes/vc.php:1103, src/saturnthemes-financebank/includes/vc.php:1302, src/saturnthemes-financebank/includes/vc.php:1530, src/saturnthemes-financebank/includes/vc.php:1583, src/saturnthemes-financebank/includes/vc.php:1633, src/saturnthemes-financebank/includes/vc.php:1681, src/saturnthemes-financebank/includes/vc.php:1717, src/saturnthemes-financebank/includes/vc.php:1896
+msgid "CSS"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:225, src/saturnthemes-financebank/includes/vc.php:413, src/saturnthemes-financebank/includes/vc.php:553, src/saturnthemes-financebank/includes/vc.php:615, src/saturnthemes-financebank/includes/vc.php:768, src/saturnthemes-financebank/includes/vc.php:805, src/saturnthemes-financebank/includes/vc.php:908, src/saturnthemes-financebank/includes/vc.php:1105, src/saturnthemes-financebank/includes/vc.php:1304, src/saturnthemes-financebank/includes/vc.php:1532, src/saturnthemes-financebank/includes/vc.php:1585, src/saturnthemes-financebank/includes/vc.php:1635, src/saturnthemes-financebank/includes/vc.php:1683, src/saturnthemes-financebank/includes/vc.php:1719, src/saturnthemes-financebank/includes/vc.php:1775, src/saturnthemes-financebank/includes/vc.php:1850, src/saturnthemes-financebank/includes/vc.php:1898
+msgid "Design Options"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:236
+msgid "Financebank Icon"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:238, src/saturnthemes-financebank/includes/vc.php:431, src/saturnthemes-financebank/includes/vc.php:633, src/saturnthemes-financebank/includes/vc.php:787, src/saturnthemes-financebank/includes/vc.php:823
+msgid "Financebank"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:240
+msgid "Eye catching icons from libraries"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:244, src/saturnthemes-financebank/includes/vc.php:647, src/saturnthemes-financebank/includes/vc.php:1133
+msgid "Icon library"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:246, src/saturnthemes-financebank/includes/vc.php:649, src/saturnthemes-financebank/includes/vc.php:1135
+msgid "Font Awesome"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:247
+msgid "Open Iconic"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:248
+msgid "Typicons"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:249
+msgid "Entypo"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:250
+msgid "Linecons"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:251
+msgid "P7 Stroke"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:255, src/saturnthemes-financebank/includes/vc.php:654, src/saturnthemes-financebank/includes/vc.php:1140
+msgid "Select icon library."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:259, src/saturnthemes-financebank/includes/vc.php:276, src/saturnthemes-financebank/includes/vc.php:292, src/saturnthemes-financebank/includes/vc.php:308, src/saturnthemes-financebank/includes/vc.php:323, src/saturnthemes-financebank/includes/vc.php:339, src/saturnthemes-financebank/includes/vc.php:658, src/saturnthemes-financebank/includes/vc.php:1144
+msgid "Icon"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:272, src/saturnthemes-financebank/includes/vc.php:288, src/saturnthemes-financebank/includes/vc.php:304, src/saturnthemes-financebank/includes/vc.php:335, src/saturnthemes-financebank/includes/vc.php:351, src/saturnthemes-financebank/includes/vc.php:671, src/saturnthemes-financebank/includes/vc.php:1157
+msgid "Select icon from library."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:361
+msgid "Custom color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:363
+msgid "Select custom icon color."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:367
+msgid "Background shape"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:378
+msgid "Select background shape and style for icon."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:382
+msgid "Custom background color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:384, src/saturnthemes-financebank/includes/vc.php:1209
+msgid "Select custom icon background color."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:388
+msgid "Icon alignment"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:395
+msgid "Select icon alignment."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:399, src/saturnthemes-financebank/includes/vc.php:593
+msgid "URL (Link)"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:401
+msgid "Add link to icon."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:429
+msgid "Financebank Image Carousel"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:435
+msgid "Images"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:438
+msgid "Select images from media library."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:442
+msgid "Image size"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:445
+msgid "Enter image size. Example: thumbnail, medium, large, full or other sizes defined by current theme. Alternatively enter image size in pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size. If used slides per view, this will be used to define carousel wrapper size."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:449
+msgid "On click action"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:452
+msgid "Open prettyPhoto"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:454
+msgid "Open custom links"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:457
+msgid "Select action for click event."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:461
+msgid "Custom links"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:463
+msgid "Enter links for each slide (Note: divide links with linebreaks (Enter))."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:471
+msgid "Custom link target"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:473
+msgid "Select how to open custom links."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:479
+msgid "Same window"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:480
+msgid "New window"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:485
+msgid "Items to show on desktop"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:491
+msgid "Items to show on tabs"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:497
+msgid "Items to show on mobile"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:503
+msgid "Slider autoplay"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:505
+msgid "Enable autoplay mode."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:511
+msgid "Slider speed"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:514
+msgid "Duration of animation between slides (in ms)."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:522
+msgid "Hide prev/next buttons"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:524
+msgid "If checked, prev/next buttons will be hidden."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:530
+msgid "Hide dots navigation"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:532
+msgid "If checked, dots navigation will be hidden."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:538
+msgid "Space between two items in px"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:551, src/saturnthemes-financebank/includes/vc.php:766, src/saturnthemes-financebank/includes/vc.php:803, src/saturnthemes-financebank/includes/vc.php:1773, src/saturnthemes-financebank/includes/vc.php:1848
+msgid "CSS box"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:563, src/saturnthemes-financebank/includes/vc.php:588
+msgid "Button"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:569
+msgid "Button Type"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:572
+msgid "Primary"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:573
+msgid "Primary Outline"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:574
+msgid "Secondary"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:575
+msgid "Secondary Outline"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:577
+msgid "Style 1 Outline"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:579
+msgid "Style 2 Outline"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:595
+msgid "Add link to button."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:599
+msgid "Has Arrow"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:601
+msgid "Show Arrow in this button"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:607, src/saturnthemes-financebank/includes/vc.php:1577, src/saturnthemes-financebank/includes/vc.php:1627, src/saturnthemes-financebank/includes/vc.php:1675, src/saturnthemes-financebank/includes/vc.php:1890
+msgid "Class"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:631
+msgid "Financebank Counter"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:634
+msgid "Your milestones, achievements, etc."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:639
+msgid "Counter Title "
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:643
+msgid "Enter title for counter block"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:650, src/saturnthemes-financebank/includes/vc.php:1136
+msgid "Custom Image Icon"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:698, src/saturnthemes-financebank/includes/vc.php:1196
+msgid "Select icon color."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:708
+msgid "Counter Value"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:711
+msgid "Enter number for counter without any special character. You may enter a decimal number. Eg 23.8"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:716
+msgid "Counter Value Prefix"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:719
+msgid "Enter prefix for counter value"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:724
+msgid "Counter Value Suffix"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:727
+msgid "Enter suffix for counter value"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:732
+msgid "Thousands Separator"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:735
+msgid "Enter character for thousanda separator. e.g. ',' will separate 142000 into 142,000"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:740
+msgid "Replace Decimal Point With"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:743
+msgid "Did you enter a decimal number (Eg - 14.2) The decimal point '.' will be replaced with value that you will enter above."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:748
+msgid "Counter rolling time"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:754
+msgid "How many seconds the counter should roll?"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:759
+msgid "Extra Class"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:762
+msgid "Add extra class name that will be applied to the icon process, and you can use this class for your customizations."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:785
+msgid "Financebank Staff Grid"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:791
+msgid "Staff per row"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:821
+msgid "Financebank Testimonial"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:824
+msgid "Customer's Testimonial"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:833, src/saturnthemes-financebank/includes/vc.php:1126, src/saturnthemes-financebank/includes/vc.php:1366
+msgid "Style 3"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:835
+msgid "Style of testimonial"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:839
+msgid "Order by"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:843
+msgid "Date"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:844
+msgid "Menu Order"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:846
+msgid "How to order the items - accepts all default WordPress ordering options"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:851
+msgid "Order"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:854
+msgid "DESC"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:855
+msgid "ASC"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:857
+msgid "the order direction"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:861, src/saturnthemes-financebank/includes/vc.php:1248
+msgid "Content Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:872
+msgid "Carousel autoplay"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:874
+msgid "Enable carousel autoplay."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:880
+msgid "Display arrow navigation"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:887
+msgid "Display dots navigation"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:894
+msgid "Items to show"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:897
+msgid "Number of shown items on each slide"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:923
+msgid "Financebank Google Map"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:926
+msgid "Display Google Maps to indicate your location."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:930
+msgid "Latitude"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:933, src/saturnthemes-financebank/includes/vc.php:940, src/saturnthemes-financebank/includes/vc.php:986
+msgid "Here is a tool"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:933, src/saturnthemes-financebank/includes/vc.php:940
+msgid "where you can find Latitude & Longitude of your location"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:937
+msgid "Longitude"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:944
+msgid "Width (in %)"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:950
+msgid "Height (in px)"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:956
+msgid "Map type"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:960
+msgid "Roadmap"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:961
+msgid "Satellite"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:962
+msgid "Hybrid"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:963
+msgid "Terrain"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:968
+msgid "Map style"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:971
+msgid "Choose a map style. This approach changes the style of the Roadmap types (base imagery in terrain and satellite views is not affected, but roads, labels, etc. respect styling rules"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:973
+msgid "Default"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:974
+msgid "Shades of Grey"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:975
+msgid "Ultra Light with Labels"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:976
+msgid "Apple Maps-esque"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:977
+msgid "Subtle Grayscale"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:978
+msgid "Custom"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:984
+msgid "Map style custom"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:986
+msgid "where you can customize style of Google Map."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:994
+msgid "Map Zoom"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1025
+msgid "Disable map zoom on mouse wheel scroll"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1036
+msgid "Custom marker icon"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1038
+msgid "If you don't choose custom marker, this shortcode will get the default marker icon from theme."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1039, src/saturnthemes-financebank/includes/vc.php:1055
+msgid "Marker"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1043
+msgid "Marker Info Window"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1046, src/saturnthemes-financebank/includes/vc.php:1054
+msgid "Content for info window"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1051
+msgid "Info Window"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1059
+msgid "Street view control"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1062, src/saturnthemes-financebank/includes/vc.php:1073, src/saturnthemes-financebank/includes/vc.php:1084, src/saturnthemes-financebank/includes/vc.php:1095
+msgid "Enable"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1063, src/saturnthemes-financebank/includes/vc.php:1074, src/saturnthemes-financebank/includes/vc.php:1085, src/saturnthemes-financebank/includes/vc.php:1096
+msgid "Disable"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1066, src/saturnthemes-financebank/includes/vc.php:1077, src/saturnthemes-financebank/includes/vc.php:1088, src/saturnthemes-financebank/includes/vc.php:1099
+msgid "Advanced"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1070
+msgid "Map type control"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1081
+msgid "Map pan control"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1092
+msgid "Zoom control"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1115
+msgid "Financebank Icon Box"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1121
+msgid "Box Style"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1127
+msgid "Style 4"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1207
+msgid "Background color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1220
+msgid "Select border color for icon."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1230
+msgid "Enter the title of this icon box."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1237
+msgid "Select title color."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1244
+msgid "Enter the description for this icon box."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1250
+msgid "Select content color."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1259
+msgid "Box Title"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1262
+msgid "Select whether to use color for icon or not."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1282
+msgid "Box Background Color"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1285
+msgid "Select Box background color."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1289
+msgid "Background Image on hover"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1346
+msgid "Financebank Post Grid"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1354
+msgid "News Update"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1355
+msgid "Only display with style 3"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1387
+msgid "Enter categories, tags or custom taxonomies."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1437
+msgid "Display Type"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1439, src/saturnthemes-financebank/includes/vc.php:1457, src/saturnthemes-financebank/includes/vc.php:1463, src/saturnthemes-financebank/includes/vc.php:1474, src/saturnthemes-financebank/includes/vc.php:1486, src/saturnthemes-financebank/includes/vc.php:1502, src/saturnthemes-financebank/includes/vc.php:1509
+msgid "Display"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1441
+msgid "Grid"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1442
+msgid "Carousel"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1448
+msgid "Items per row"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1461
+msgid "Show arrow navigation"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1473
+msgid "Show dots pagination"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1485
+msgid "Pagination Position"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1489
+msgid "Horizontal"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1490
+msgid "Vertical"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1500
+msgid "Show content"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1508
+msgid "Show read more"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1516
+msgid "Show More Posts"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1517, src/saturnthemes-financebank/includes/vc.php:1525, src/saturnthemes-financebank/vc_templates/saturnthemes_financebank_post_grid.php:43
+msgid "More Posts"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1524
+msgid "More Posts URL"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1542
+msgid "Video Player"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1551
+msgid "Enter your video url (Youtube/Vimeo) here"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1566
+msgid "Color of video player"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1573
+msgid "Color of video player on hover"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1621
+msgid "Website URL"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1693
+msgid "Financebank Contact Staffs"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1699
+msgid "Staff IDS"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1701
+msgid "Enter staff IDs to display only those records (Note: separate values by commas (,))."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1729, src/saturnthemes-financebank/includes/vc.php:1760
+msgid "History"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1735
+msgid "Years"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1737
+msgid "Enter years for graph - title, year and history."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1748
+msgid "Year"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1785
+msgid "Team Member"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1793
+msgid "Name of team member"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1798
+msgid "Position"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1800
+msgid "Position of team member"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1816
+msgid "Phone Number"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1818
+msgid "Phone number of team member"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1825
+msgid "Email of team member"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1832, src/saturnthemes-financebank/includes/vc.php:1838, src/saturnthemes-financebank/includes/vc.php:1844
+msgid "Follow on Socials"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1860
+msgid "Career"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1870
+msgid "Enter this career title"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1874
+msgid "Detail URL"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1879
+msgid "Short Description"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1885
+msgid "Apply URL"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1951
+msgid "Attention Seekers"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1961
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1968
+msgid "Fading Entrances"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1979
+msgid "Flippers"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1980
+msgid "Lightspeed"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1981
+msgid "Rotating Entrances"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1988
+msgid "Sliders"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/vc.php:1989
+msgid "Specials"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:21
+msgid "SaturnThemes - Facebook Page Like"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:22
+msgid "Facebook Page \"Like\" button"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:90
+msgid "Facebook Page URL"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:102
+msgid "The pixel width of the embed (Min. 180 to Max. 500)"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:110
+msgid "The pixel height of the embed (Min. 70)"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:115
+msgid "Use Small Header"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:117
+msgid "Uses a smaller version of the page header"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:122
+msgid "Adapt to shortcode container width"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:124
+msgid "Shortcode will try to fit inside the container"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:129
+msgid "Hide cover photo"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:131
+msgid "Hide the cover photo in the header"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:136
+msgid "Show Friend's Faces"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:138
+msgid "Show profile photos when friends like this"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:143
+msgid "Show Page Posts"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_facebook_widget.php:145
+msgid "Show posts from the Page's timeline"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:23
+msgid "SaturnThemes - Instagram"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:24
+msgid "Displays latest Instagram photos"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:37
+msgid "Follow us on Instagram"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:90
+msgid "Follow Us"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:104
+msgid "User Name"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:111
+msgid "Number of items"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:121
+msgid "Show likes and comments"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:127
+msgid "Show follow text"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:140
+msgid "Open links in new page:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:142
+msgid "Responsiveness"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:164
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:168
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:176, src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:188, src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:192
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:234
+msgid "Instagram Image"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_instagram_widget.php:261
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:23
+msgid "A widget that displays your social icons"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:30
+msgid "SaturnThemes - Social Icons"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:152
+msgid "Title:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:160
+msgid "Enter link to Facebook:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:168
+msgid "Enter link to Twitter:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:176
+msgid "Enter link to Instagram:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:184
+msgid "Enter link to Pinterest:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:192
+msgid "Enter link to VK:&nbsp;&nbsp;&nbsp;&nbsp;"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:200
+msgid "Enter link to Google Plus:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:208
+msgid "Enter link to Tumblr:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:216
+msgid "Enter link to Youtube:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:224
+msgid "Enter link to Dribbble:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:232
+msgid "Enter link to Soundcloud:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:240
+msgid "Enter link to Vimeo:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widget/saturnthemes_social_widget.php:248
+msgid "Enter link to RSS:"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:6
+msgid "Blog Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:14, src/saturnthemes-financebank/includes/widgets-registration.php:16
+msgid "Service Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:24, src/saturnthemes-financebank/includes/widgets-registration.php:26
+msgid "Staff Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:34
+msgid "Footer Widget 1"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:36
+msgid "Footer Column 1 Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:43
+msgid "Footer Widget 2"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:45
+msgid "Footer Column 2 Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:52
+msgid "Footer Widget 3"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:54
+msgid "Footer Column 3 Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:61
+msgid "Footer Widget 4"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:63
+msgid "Footer Column 4 Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:71
+msgid "WooCommerce Archives Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:73
+msgid "Shop Archive Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:81
+msgid "WooCommerce Single Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/includes/widgets-registration.php:83
+msgid "Shop Single Product Sidebar"
+msgstr ""
+
+#: src/saturnthemes-financebank/tag.php:15
+msgid "Browsing Tag:"
+msgstr ""
+
+#: src/saturnthemes-financebank/tag.php:15
+msgid "%s"
+msgstr ""
+
+#: src/saturnthemes-financebank/template-parts/content-grid-style2.php:14, src/saturnthemes-financebank/template-parts/content-grid.php:5
+msgid "Read More"
+msgstr ""
+
+#: src/saturnthemes-financebank/template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: src/saturnthemes-financebank/template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: src/saturnthemes-financebank/template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: src/saturnthemes-financebank/template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: src/saturnthemes-financebank/template-parts/content.php:130
+msgid "<span class=\"more-button\">Continue Reading</span>"
+msgstr ""
+
+#: src/saturnthemes-financebank/template-parts/content.php:164
+msgid "Continue Reading"
+msgstr ""
+
+#: src/saturnthemes-financebank/template-parts/content.php:171
+msgid "Share"
+msgstr ""
+
+#: src/saturnthemes-financebank/template-parts/page-title.php:40
+msgid "Blog"
+msgstr ""
+
+#: src/saturnthemes-financebank/template-parts/page-title.php:56
+msgid "Search Results"
+msgstr ""
+
+#: src/saturnthemes-financebank/template-parts/page-title.php:58
+msgid "Page not found"
+msgstr ""
+
+#: src/saturnthemes-financebank/template-parts/staff-grid.php:22
+msgid "View Profile <span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: src/saturnthemes-financebank/vc_templates/saturnthemes_career.php:36
+msgid "Apply"
+msgstr ""
+
+#: src/saturnthemes-financebank/vc_templates/saturnthemes_contact_staffs.php:41
+msgid "Email:"
+msgstr ""
+
+#: src/saturnthemes-financebank/vc_templates/saturnthemes_contact_staffs.php:42
+msgid "Phone:"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/cart/cart-totals.php:27
+msgid "Cart Totals"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/cart/cart-totals.php:32, src/saturnthemes-financebank/woocommerce/cart/cart-totals.php:33, src/saturnthemes-financebank/woocommerce/cart/mini-cart.php:79
+msgid "Subtotal"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/cart/cart-totals.php:54, src/saturnthemes-financebank/woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/cart/cart-totals.php:70
+msgid "estimated for %s"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/cart/cart-totals.php:91, src/saturnthemes-financebank/woocommerce/cart/cart-totals.php:92
+msgid "Total"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/cart/mini-cart.php:48
+msgid "Remove this item"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/cart/mini-cart.php:71
+msgid "No products in the cart."
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/cart/mini-cart.php:84
+msgid "View Cart"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/cart/mini-cart.php:85
+msgid "Checkout"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/checkout/form-billing.php:28
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/checkout/form-billing.php:32
+msgid "Billing Details"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/checkout/form-billing.php:51
+msgid "Create an account?"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/checkout/form-billing.php:62
+msgid "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/checkout/form-checkout.php:28
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/checkout/form-checkout.php:54
+msgid "Your order"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/checkout/form-shipping.php:40
+msgid "Ship to a different address?"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/checkout/form-shipping.php:66
+msgid "Additional Information"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/global/quantity-input.php:24
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/loop/no-products-found.php:23
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/loop/result-count.php:38
+msgid "Showing the single result"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/loop/result-count.php:40
+msgid "Showing all %d results"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/loop/result-count.php:42
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/loop/sale-flash.php:27
+msgid "Sale!"
+msgstr ""
+
+#: src/saturnthemes-financebank/woocommerce/single-product/related.php:50
+msgid "Related Products"
+msgstr ""

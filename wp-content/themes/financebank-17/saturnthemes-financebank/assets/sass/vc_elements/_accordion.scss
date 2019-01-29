@@ -1,0 +1,63 @@
+.vc_tta-accordion.vc_tta-color-grey.vc_tta-style-classic {
+    .vc_tta-panel {
+        &,
+        &.vc_active,
+        &:hover {
+            .vc_tta-panel-heading {
+                border: 1px solid #ddd;
+                background-color: transparent;
+                border-radius: 0 !important;
+                .vc_tta-panel-title {
+                    a {
+                        padding: 16px 0 16px 70px;
+                        font-size: 18px;
+                        font-weight: 700;
+                        color: #1F1F1F;
+                        .vc_tta-controls-icon {
+                            position: absolute;
+                            left: 0px;
+                            top: 25px;
+                            width: 50px;
+                            height: 50px;
+                            @extend %fontawesome;
+                            font-size: 10px;
+                            border-right: 1px solid #ddd;
+                            //box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.07);
+                            &:before,
+                            &:after {
+                                border: none;
+                            }
+                            &:before {
+                                content: "\f078";
+                                @extend %translate-center;
+                                right: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.vc_active {
+            .vc_tta-panel-heading {
+                .vc_tta-controls-icon:before {
+                    content: "\f077" !important;
+                }
+            }
+        }
+
+        &:not(:last-child) {
+            .vc_tta-panel-heading {
+                border-bottom: none;
+            }
+        }
+
+        .vc_tta-panel-body {
+            padding: 20px 30px;
+            border: 1px solid #ddd;
+            border-top: 2px solid;
+            background-color: transparent;
+            border-radius: 0;
+        }
+    }
+}

@@ -1,0 +1,204 @@
+// Back to Top
+.scrollup {
+    position: fixed;
+    z-index: 99999;
+    bottom: -50px;
+    display: block;
+    right: 32px;
+    width: 45px;
+    height: 45px;
+    opacity: 0.9;
+    text-align: center;
+    border: 2px solid #ddd;
+    color: #ddd;
+    &.show {
+        bottom: 30px;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+    i {
+        @extend %translate-center;
+    }
+}
+
+//General
+.footer-widget-container {
+    padding: 75px 0 55px;
+
+    .widget {
+        .widget-title {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.8em;
+        }
+
+        .footer-logo {
+            display: block;
+            margin-bottom: 35px;
+        }
+    }
+
+    .footer-contact-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: flex;
+            align-items: center;
+        }
+
+        li:not(:first-child) {
+            padding-top: 10px;
+        }
+
+        li:not(:last-child) {
+            padding-bottom: 10px;
+            line-height: 1;
+            border-bottom: 1px solid #333333;
+        }
+
+        .footer-contact-icon {
+            display: inline-block;
+            position: relative;
+            width: 36px;
+            height: 36px;
+            margin-right: 12px;
+            background-color: rgba(255, 255, 255, 0.2);
+            i {
+                position: absolute;
+                @extend %translate-center;
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+    }
+
+    .menu {
+        .menu-item {
+            margin-bottom: 10px;
+            a {
+                &:before {
+                    @extend .font-awesome;
+                    content: "\f00c";
+                    margin-right: 7px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .mc4wp-form {
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        input[type="email"] {
+            display: block;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            padding: 14px 20px;
+            font-size: 16px;
+            line-height: 1;
+            width: 100%;
+            height: auto;
+            border: none;
+        }
+
+        button[type="submit"] {
+            padding: 15px 21px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1;
+            color: #fff;
+            height: auto;
+            border: none;
+            &:after {
+                @extend .font-awesome;
+                content: "\f054";
+                font-size: 10px;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .site-footer {
+      .footer-widget {
+        margin-top:  30px;
+      }
+      .footer-widget:last-child {
+        margin-bottom: 20px;
+      }
+    }
+}
+
+// Bottom
+.footer-bottom {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid transparent;
+    .social-links {
+        padding-left: 20px;
+        li {
+            padding-right: 5px;
+            a {
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                padding: 0;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .footer-widget-container {
+        padding: 50px 0 0;
+    }
+    .footer-bottom {
+        padding-top: 40px;
+    }
+    .social-links {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding-left: 0 !important;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .footer-widget-container {
+        .menu {
+            > li {
+                display: inline-block;
+                width: 49%;
+            }
+
+        }
+    }
+}
+
+.footer-social-icon-list {
+  height: 30px;
+  li {
+    display: inline-block;
+    margin-left: 7px;
+  }
+  .footer-social-icon {
+    i {
+      font-size: 30px;
+        transition: all 0.25s;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+  }
+}
+
+@import "footer-01";

@@ -1,0 +1,29 @@
+@include media-breakpoint-down(xs) {
+    body .margin-top-xs-30 {
+        margin-top: 30px !important;
+    }
+
+    body .padding-left-xs-35 .vc_column-inner {
+        padding-left: 35px !important;;
+    }
+
+    body .padding-left-xs-15 .vc_column-inner {
+        padding-left: 15px !important;;
+    }
+
+    body .padding-left-xs-130 .vc_column-inner {
+        padding-left: 130px !important;;
+    }
+
+    body .padding-right-xs-35 .vc_column-inner {
+        padding-right: 35px !important;;
+    }
+
+    body .padding-right-xs-15 .vc_column-inner {
+        padding-right: 15px !important;;
+    }
+
+    body .padding-top-xs-300 .vc_column-inner {
+        padding-top: 300px !important;;
+    }
+}

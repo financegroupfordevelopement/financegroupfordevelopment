@@ -1,0 +1,118 @@
+/* Slider */
+.slick-slider {
+    margin-bottom: 50px;
+}
+.slick-slide {
+    height: auto;
+    &:focus {
+        outline: none;
+    }
+}
+/* Arrows */
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    @extend %translate-center-y;
+    @extend %transition;
+    display: block;
+    opacity: 0.4;
+    width: 40px;
+    height: 40px;
+    background: none;
+    color: #666;
+    border: 2px solid #666;
+    border-radius: 0;
+    font-size: 24px !important;
+    line-height: 36px !important;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    &:hover,
+    &:focus {
+        color: #666;
+        opacity: 1;
+    }
+    &-prev {
+        left: -70px;
+    }
+    &-next {
+        right: -70px;
+    }
+}
+
+/* Dots */
+.slick-dots {
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    li {
+        position: relative;
+        display: inline-block;
+        width: 12px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+        button {
+            font-size: 0;
+            line-height: 20px !important;
+            display: block;
+            height:auto;
+            padding: 0;
+            cursor: pointer;
+            color: transparent;
+            border: 0;
+            outline: none;
+            background: transparent;
+            &:hover,
+            &:focus {
+                outline: none;
+                &:before {
+                    border-color: #222;
+                }
+            }
+            &:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                margin: 5px;
+                background: #FFF;
+                border: 2px solid;
+                border-color: #A7A7A7;
+                opacity: 1;
+            }
+        }
+        &.slick-active button:before {
+            border-color: #222;
+            opacity: 1;
+        }
+    }
+}
+.pagination-vertical {
+    .slick-dots {
+        width: auto;
+        bottom: 50%;
+        left: auto;
+        right: -10px;
+        transform: translateY(50%);
+        li {
+            display: block;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+
+}
+
+@include media-breakpoint-up(xl) {
+
+}

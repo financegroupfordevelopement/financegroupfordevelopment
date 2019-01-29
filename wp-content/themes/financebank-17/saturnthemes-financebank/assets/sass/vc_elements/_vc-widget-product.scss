@@ -1,0 +1,35 @@
+.product_list_widget {
+    > li {
+        padding: 20px 0;
+        border-bottom: 1px solid #EEE;
+        &:first-child {
+            padding-top: 0;
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+        img {
+            float: left !important;
+            margin-right: 22px;
+        }
+        .product-title {
+            display: block;
+            font-weight: 700;
+        }
+        .star-rating {
+            display: block;
+        }
+        .amount {
+            font-size: 17px;
+            font-weight: 700;
+        }
+        del .amount {
+            padding-right: 6px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        ins {
+            background: none;
+        }
+    }
+}

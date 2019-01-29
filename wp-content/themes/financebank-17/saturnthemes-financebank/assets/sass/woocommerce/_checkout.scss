@@ -1,0 +1,113 @@
+.woocommerce-checkout {
+	h3 {
+		display: block;
+        margin-bottom: 10px;
+        position: relative;
+        padding-left: 23px;
+        padding-bottom: 15px;
+        font-size: 24px;
+        text-align: left;
+
+        &:before {
+            content: "\f00c";
+            @extend %translate-center-y;
+            left: 0;
+            top: 12px;
+            @extend .font-awesome;
+            font-size: 16px;
+        }
+	}
+	.form-row {
+		margin-bottom: 5px;
+	}
+    input,
+    select,
+    textarea {
+        padding: 12px 10px;
+        background-color: #EEEEEE;
+        border: none;
+        &:hover,
+        &:focus {
+            border: none;
+        }
+    }
+    .select2-container {
+        .select2-choice {
+            padding: 12px 10px;
+            background-color: #EEEEEE;
+            border: none;
+        }
+    }
+	.login,
+	.checkout_coupon {
+		margin: 20px 0;
+		overflow: hidden;
+		.button {
+			background: black;
+		}
+	}
+	#customer_details {
+		margin-bottom: 40px;
+	}
+	.woocommerce-checkout-review-order-table {
+		&, th, td {
+			border: none;
+			font-weight: 400;
+		}
+		thead {
+			background: #EEE;
+			border-left: 3px solid;
+			th {
+				font-size: 15px;
+				font-weight: 700;
+			}
+		}
+		th, td {
+			padding: 0.5em 1em;
+		}
+		tr:not(:last-child) {
+			border-bottom: 1px solid #DDD;
+		}
+		tr.shipping {
+			border-bottom: 1px solid transparent;
+		}
+		.product-name {
+			width: 60%;
+		}
+	}
+	.woocommerce-checkout-payment {
+		vertical-align: top;
+		label {
+			font-weight: 700;
+		}
+		.payment_method_paypal {
+			img {
+				max-width: 50%;
+				margin-right: 5px;
+			}
+		}
+	}
+	#place_order {
+		width: 100%;
+	}
+}
+form.woocommerce-checkout {
+	margin-top: 40px;
+}
+.woocommerce-info {
+	a:hover {
+		text-decoration: underline;
+	}
+}
+@include media-breakpoint-up(md) {
+	.woocommerce-checkout-review-order {
+		.woocommerce-checkout-payment,
+		.woocommerce-checkout-review-order-table {
+			display: inline-block;
+			width: 48%;
+		}
+		.woocommerce-checkout-review-order-table {
+			margin-right: 30px;
+		}
+	}
+}

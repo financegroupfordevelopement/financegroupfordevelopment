@@ -1,0 +1,16 @@
+.our-page-1-mission-list {
+     overflow: hidden;
+     list-style: disc;
+     font-size: 18px;
+     color: #1F1F1F;
+     li {
+         width: calc(100% / 3 - 55px);
+         float: left;
+         margin-left: 18px;
+         margin-right: 55px;
+         margin-bottom: 15px;
+         &:nth-child(3n+0) {
+             margin-right: 0;
+         }
+     }
+ }

@@ -1,0 +1,10 @@
+.disc-list {
+    list-style: disc;
+    margin-left: 15px;
+    font-size: 18px;
+    li {
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.vc_progress_bar.saturnthemes-progress-bar {
+    .vc_single_bar {
+        margin-bottom: 20px;
+        background: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        .vc_label {
+            margin-bottom: 5px;
+            padding: 0;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .vc_bar {
+            position: relative;
+            height: 15px;
+            background-color: #323232;
+            border-radius: 0;
+            .vc_label_units {
+                display: inline-block;
+                position: absolute;
+                right: 0;
+                top: -39px;
+                transform: translateX(50%);
+                padding: 2px 8px;
+                font-size: 14px;
+                color: #fff;
+                &:after {
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    top: 25px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 8px 5px 0 5px;
+                    border-color: #00448C transparent transparent transparent;
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+/* Grid */
+.service-last-row .service-grid-item {
+    margin-bottom: 0;
+}
+
+.service-grid-item {
+    margin-bottom: 40px;
+    .entry-header {
+        .post-thumbnail {
+            display: block;
+            overflow: hidden;
+            img {
+                transition: all 0.25s;
+                // @todo: improve transition
+            }
+        }
+    }
+
+    .entry-title {
+        display: flex;
+        align-items: center;
+        margin: 20px 0 12px 0;
+        font-size: 20px;
+        font-weight: 700;
+        i {
+            margin-right: 10px;
+            font-size: 30px;
+        }
+    }
+
+    .more-link {
+        font-size: 16px;
+        font-weight: 700;
+        i {
+            font-size: 10px;
+        }
+    }
+
+    &:hover {
+        .post-thumbnail {
+            img {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

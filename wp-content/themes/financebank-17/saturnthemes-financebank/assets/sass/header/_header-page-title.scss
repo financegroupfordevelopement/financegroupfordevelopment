@@ -1,0 +1,55 @@
+.page-title {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-size: cover;
+    text-align: center;
+	.header-title {
+        padding-top: 100px;
+        padding-bottom: 34px;
+		position: relative;
+        z-index: 20;
+		font-size: 40px;
+		font-weight: 700;
+        line-height: 1em;
+	}
+
+    .page-title-overlay,
+    .page-title-overlay-color {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .page-title-overlay-color {
+        opacity: 0.95;
+        z-index: 5;
+    }
+
+    .page-title-overlay {
+        z-index: 10;
+        background-image: url('../img/page-title-overlay.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        background-size: cover;
+    }
+}
+.breadcrumbs-wrapper {
+    position: relative;
+    z-index: 20;
+    padding-bottom: 40px;
+    .saturnthemes_financebank_bread_crumb {
+      li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      a:after {
+        content: "\f105";
+        margin-left: 12px;
+        @extend %fontawesome;
+      }
+    }
+}

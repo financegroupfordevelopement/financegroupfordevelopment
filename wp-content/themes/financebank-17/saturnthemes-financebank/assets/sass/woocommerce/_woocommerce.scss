@@ -1,0 +1,30 @@
+.woocommerce {
+    .onsale {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        text-align: center;
+        line-height: 30px;
+        left: 10px;
+        top: 10px;
+        margin: 0;
+        border-radius: 100%;
+        font-size: 12px;
+        color: #fff;
+        -webkit-font-smoothing: antialiased;
+    }
+    ins {
+        background-color: transparent !important;
+    }
+    [type="submit"] {
+        border: none;
+    }
+}
+
+@import "notices";
+@import "widgets";
+@import "archive-product";
+@import "product-single";
+@import "login-register";
+@import "cart";
+@import "checkout";

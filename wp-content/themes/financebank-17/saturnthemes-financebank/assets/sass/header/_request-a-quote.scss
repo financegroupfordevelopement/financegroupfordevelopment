@@ -1,0 +1,14 @@
+.header-request-a-quote a {
+    display: inline-block;
+    padding: 17px 30px 13px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    border-with: 3px;
+    border-style: solid;
+    transition: all 0.25s;
+    text-align: center;
+    &:hover {
+        color: #fff !important;
+    }
+}

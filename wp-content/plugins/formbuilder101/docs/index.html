@@ -1,0 +1,434 @@
+<!-- Elfsight © elfsight.com -->
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Elfsight Form Builder Documentation</title>
+
+	<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500&subset=latin,cyrillic-ext,cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="assets/vendor/css/normalize.css">
+	<link rel="stylesheet" href="assets/vendor/lib/foundation/foundation.min.css">
+	<link rel="stylesheet" href="assets/vendor/lib/highlight/default.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<script src="assets/vendor/js/modernizr.js"></script>
+	<script src="assets/vendor/js/jquery-1.11.2.min.js"></script>
+	<script src="assets/vendor/lib/highlight/highlight.pack.js"></script>
+	<script src="assets/vendor/lib/foundation/foundation.min.js"></script>
+	<script src="assets/js/main.js"></script>
+</head>
+
+<body>
+<header class="header container">
+	<div class="row">
+		<div class="medium-12 columns">
+			<h1>Get started with Elfsight Form Builder 1.0.1</h1>
+
+			<div class="header-social">
+				<a class="icon-facebook icon" href="http://facebook.com/elfsight" target="_blank"></a>
+				<a class="icon-twitter icon" href="http://twitter.com/elfsight" target="_blank"></a>
+				<a class="icon-google-plus icon" href="https://plus.google.com/+Elfsight/" target="_blank"></a>
+				<a class="icon-instagram icon" href="http://instagram.com/elfsight" target="_blank"></a>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="install container">
+	<div class="row">
+		<div class="medium-12 columns">
+			<h2>Installation</h2>
+		</div>
+	</div>
+
+	<div class="install-step row">
+		<div class="medium-12 columns">
+			<p>1. Install Elfsight Form Builder WordPress Plugin <code>elfsight-form-builder-cc.zip</code> to your website. Don't know how? <a href="https://codex.wordpress.org/Managing_Plugins" target="_blank">Please learn here</a>.</p>
+		</div>
+	</div>
+
+	<div class="install-step row">
+		<div class="medium-12 columns">
+			<p>2. Go to Form Builder page in WordPress admin menu.</p>
+		</div>
+	</div>
+
+	<div class="install-step row">
+		<div class="medium-12 columns">
+			<p>3. Create a new widget, adjust all settings and get a ready-made shortcode.</p>
+		</div>
+	</div>
+</section>
+
+<section class="wordpress-shortcode container">
+	<div class="row">
+		<div class="medium-4 columns">
+			<h3>Use Form Builder as a <strong>WordPress Shortcode</strong></h3>
+
+			<br><br>
+			<h4>1. Create a new widget</h4>
+			<p>You can use Elfsight Form Builder as a WordPress shortcode. To do this, you have to create a new widget, set all options in the Elfsight editor and save it.</p>
+		</div>
+
+		<div class="medium-8 columns">
+			<figure>
+				<img src="assets/img/edit-widget.jpg" width="556" height="698">
+			</figure>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="medium-4 columns">
+			<h4>2. Copy-paste the shortcode</h4>
+			<p>You will see the new widget's shortcode in the widgets list. You can copy-paste it into the required place of your website.</p>
+
+			<p>Example of the Elfsight Form Builder shortcode:<br>
+			<pre><code class="html hljs xml">[elfsight_form_builder id="1"]</code></pre>
+		</div>
+
+		<div class="medium-8 columns">
+			<figure>
+				<img src="assets/img/widgets-list.jpg" width="556" height="270">
+			</figure>
+		</div>
+	</div>
+</section>
+
+<section class="wordpress-block container">
+	<div class="row">
+		<div class="medium-4 columns">
+			<h3>Use Form Builder as a<br> <strong>Gutenberg Block</strong></h3>
+
+			<p>You can use Elfsight Form Builder as a block for Gutenberg editor. Just add it to your page during page building and select one of the available Form Builder widgets from the list.</p>
+		</div>
+
+		<div class="medium-8 columns">
+			<figure>
+				<img src="assets/img/wordpress-block.jpg" width="556" height="420">
+			</figure>
+		</div>
+	</div>
+</section>
+
+<section class="wordpress-widget container">
+	<div class="row">
+		<div class="medium-4 columns">
+			<h3>Use Form Builder as a<br> <strong>WordPress Widget</strong></h3>
+
+			<p>To use Elfsight Form Builder as a WordPress widget, go to Appearance&nbsp;->&nbsp;Widgets, and drag Elfsight Form Builder WordPress widget to any widget section. Next, select one of available Form Builder widgets from the list.</p>
+		</div>
+
+		<div class="medium-8 columns">
+			<figure>
+				<img src="assets/img/wordpress-widget.jpg" width="556" height="402">
+			</figure>
+		</div>
+	</div>
+</section>
+
+<section class="wordpress-vc container">
+	<div class="row">
+		<div class="medium-4 columns" style="margin-top:60px;">
+			<h3>Use Form Builder as a<br> <strong>Visual Composer Element</strong></h3>
+
+			<p>You can use Elfsight Form Builder as a Visual Composer element. Just add it to your page during page building and select one of the available Form Builder widgets from the list.</p>
+		</div>
+
+		<div class="medium-8 columns">
+			<figure>
+				<img src="assets/img/visual-composer.jpg" width="556" height="410">
+			</figure>
+		</div>
+	</div>
+</section>
+
+<section class="options container">
+	<div class="row">
+		<div class="medium-12 columns">
+			<h2>Options</h2>
+
+			<table class="options-table">
+				<thead>
+				<tr>
+					<th>Option</th>
+					<th>Default Value</th>
+					<th>Description</th>
+				</tr>
+				</thead>
+
+				<tbody>
+				<tr>
+					<td>Show form header</td>
+					<td>true</td>
+					<td>Show/Hide the form header.</td>
+				</tr>
+
+				<tr>
+					<td>Header title</td>
+					<td>Get in Touch</td>
+					<td>This title will be displayed above the form.</td>
+				</tr>
+
+				<tr>
+					<td>Header text</td>
+					<td>Leave your message and we'll get back to you shortly.</td>
+					<td>This title will be displayed above the form.</td>
+				</tr>
+
+				<tr>
+					<td>Header picture</td>
+					<td>message</td>
+					<td>Paste the URL of the image you want to display left of the title. You can display a message icon, a company logo or the picture of the contact.</td>
+				</tr>
+
+				<tr>
+					<td>Form Elements</td>
+					<td>-</td>
+					<td>Build your form with the elements you need.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Element type</td>
+					<td>-</td>
+					<td>Here you can choose the type of element to add to your form, for instance, short or long text, dropdown, checkboxes, etc.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Label</td>
+					<td>-</td>
+					<td>Name your element. The label will be displayed above the field.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Placeholder</td>
+					<td>-</td>
+					<td>Placeholder will be displayed inside the field. Use it as an example of input data or to demonstrate the required format. Also, to use as an alternative label, enter element name here. Available only for the short text, long text, email, phone, url, number and date & time elements.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Options</td>
+					<td>-</td>
+					<td>List the options to choose from. Available only for the checkboxes, radio buttons, dropdown and thumb scale elements.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Placeholder</td>
+					<td>-</td>
+					<td>Placeholder will be displayed inside the field. Use it as an example of input data or to demonstrate the required format. Also, to use as an alternative label, enter element name here. Available only for the short text, long text, email, phone, url, number and date & time elements.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Min</td>
+					<td>1</td>
+					<td>Set the lowest scale value. Available only for the number scale element.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Max</td>
+					<td>10</td>
+					<td>Set the highest scale value. Available only for the number scale element.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Left caption</td>
+					<td>Not likely</td>
+					<td>Set the caption for the lowest scale value. Available only for the number scale element.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Right caption</td>
+					<td>Very likely</td>
+					<td>Set the caption for the highest scale value. Available only for the number scale element.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Text</td>
+					<td>-</td>
+					<td>Enter your text here. Available only for the caption element.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Text</td>
+					<td>-</td>
+					<td>Enter your text here. Available only for the caption element.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Heading</td>
+					<td>-</td>
+					<td>Enter your heading here. Available only for the heading element.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Heading caption</td>
+					<td>-</td>
+					<td>Enter your heading caption here. Available only for the heading element.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Date and time</td>
+					<td>date</td>
+					<td>Select the required data: date, date and time, time. Available only for the date & time element.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Date format</td>
+					<td>d.m.Y</td>
+					<td>Select date input format. Available only for the date & time element.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Time format</td>
+					<td>24-hour</td>
+					<td>Select time input format. Available only for the date & time element.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Stars Count</td>
+					<td>5</td>
+					<td>Set the maximum number of stars. Available only for the stars scale element.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Required field</td>
+					<td>false</td>
+					<td>Set this to ON to make a field required. The user will have to fill this field before submitting the form. Tip: Too many required fields decrease the chances of submitting a form.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Description</td>
+					<td>-</td>
+					<td>Add a text to your element, if required. The description will be displayed below the label.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Column layout</td>
+					<td>1</td>
+					<td>Use this option to organize the form elements in columns. Choose the same value for several elements that you need to arrange into columns.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Columns</td>
+					<td>1</td>
+					<td>Use this setting to arrange the options into columns. Available only for the checkboxes and radio buttons elements.</td>
+				</tr>
+
+				<tr>
+					<td>Fields: Group Name</td>
+					<td>-</td>
+					<td>Name your group. The name will be displayed in the progress panel. Available only for group element.</td>
+				</tr>
+
+				<tr>
+					<td>Submit button text</td>
+					<td>Submit</td>
+					<td>Customize Submit button text. Tip: Don't make the text too long.</td>
+				</tr>
+
+				<tr>
+					<td>Email to send messages to</td>
+					<td>example@domain.com</td>
+					<td>Set the email to forward the messages to.</td>
+				</tr>
+
+				<tr>
+					<td>Action after form submission</td>
+					<td>Thank you message</td>
+					<td>Choose what happens after a user submits the form: display thank you message, redirect to a specific page or simply hide form.</td>
+				</tr>
+
+				<tr>
+					<td>Thank you message</td>
+					<td>Your message was successfully sent! We will reply to you shortly.</td>
+					<td>This option allows you to set the text to display after the form was submitted.</td>
+				</tr>
+
+				<tr>
+					<td>Thank you message button text</td>
+					<td>OK</td>
+					<td>This option allows you to set the text for the button that closes the thank you message.</td>
+				</tr>
+
+				<tr>
+					<td>Redirect URL</td>
+					<td>https://example.com</td>
+					<td>Set the URL to redirect the user to after form submission.</td>
+				</tr>
+
+				<tr>
+					<td>Save Form Progress</td>
+					<td>true</td>
+					<td>Turn ON/OFF saving the form data in the browser while filling out the form. Turning this option ON makes sure that the form data is not lost after a page refresh. The data will be cleared after the form is submitted.</td>
+				</tr>
+
+				<tr>
+					<td>Layout</td>
+					<td>default</td>
+					<td>Select one of the predefined layouts. Default - use this layout to embed your form as is. Boxed - use the boxed layout to make sure your form stands out against the rest of the page content. Floating - this layout adds a floating button that opens the form when you click on it. This button scrolls along with your page and is always available for the user.</td>
+				</tr>
+
+				<tr>
+					<td>Floating Button Icon</td>
+					<td>message</td>
+					<td>Select the icon from the list to display on floating button.</td>
+				</tr>
+
+				<tr>
+					<td>Width (px, %, auto)</td>
+					<td>580</td>
+					<td>Set form width in pixels or percents. Set "auto" to make the form full width.</td>
+				</tr>
+
+				<tr>
+					<td>Show progress bar</td>
+					<td>true</td>
+					<td>Turn this option on to show remaining steps.</td>
+				</tr>
+
+				<tr>
+					<td>Style</td>
+					<td>classic</td>
+					<td>This option allows to choose one of the 5 predefined form styles. Choose the one that suits you best.</td>
+				</tr>
+
+				<tr>
+					<td>Main Color</td>
+					<td>rgba(28, 145, 255, 1)</td>
+					<td>Choose the color to be used in your form: Submit button, progress bar, active element etc.</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</section>
+
+<section class="support container">
+	<div class="row">
+		<div class="medium-12 columns">
+			<h2>Support, questions and offers</h2>
+
+			<p>Your questions and issue reports are processed on the first-come, first-served basis. Expect an answer from 10 a.m. to 7 p.m. CET, Monday through Friday.</p>
+
+			<a href="https://elfsight.ticksy.com/submit/#100013270" target="_blank">
+				<span>Visit Support Center</span>
+			</a>
+
+			<br><br>
+		</div>
+	</div>
+</section>
+
+<footer class="footer container">
+	<div class="row">
+		<div class="medium-12 columns">
+			<h2>Keep in Touch</h2>
+			<a class="icon-facebook icon" href="http://facebook.com/elfsight" target="_blank"></a>
+			<a class="icon-twitter icon" href="http://twitter.com/elfsight" target="_blank"></a>
+			<a class="icon-google-plus icon" href="https://plus.google.com/+Elfsight/" target="_blank"></a>
+			<a class="icon-instagram icon" href="http://instagram.com/elfsight" target="_blank"></a>
+		</div>
+	</div>
+</footer>
+</body>
+</html> 

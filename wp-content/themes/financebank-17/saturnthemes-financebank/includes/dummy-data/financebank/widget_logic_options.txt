@@ -1,0 +1,5 @@
+[START=WIDGET LOGIC OPTIONS]
+saturnthemes-menu-widget-5	""
+text-7	""
+woothemes_testimonials-4	""
+[STOP=WIDGET LOGIC OPTIONS]

@@ -1,0 +1,37 @@
+.image-carousel {
+    .slick-slider {
+        margin-bottom: 0;
+    }
+
+    .slick-slide {
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    .slick-arrow {
+        font-size: 14px !important;
+        opacity: 0;
+        transition: all 0.25s;
+    }
+
+    &:hover {
+        .slick-arrow {
+            opacity: 1;
+        }
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .image-carousel {
+        .slick-slide {
+            text-align: center;
+            img {
+                display: inline-block;
+            }
+        }
+        .slick-arrow {
+            display: none !important;
+        }
+    }
+}

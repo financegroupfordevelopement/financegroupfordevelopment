@@ -1,0 +1,16 @@
+# Change Log
+
+## October 05, 2018 - Version 1.0.1
+
+### Changed
+ * Multicolumn layout transforms to a single column on mobile devices now
+ * URL field validation
+
+### Fixed
+ * reCaptcha checking issue
+ * Multiple radio fields issue
+
+
+## August 25, 2018 - Version 1.0.0
+
+ * Elfsight Form Builder WordPress plugin release

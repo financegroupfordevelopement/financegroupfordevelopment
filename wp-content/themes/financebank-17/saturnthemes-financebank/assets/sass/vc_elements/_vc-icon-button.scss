@@ -1,0 +1,19 @@
+.icon-btn {
+	.btn {
+		display: inline-block;
+		border: 2px solid;
+		&:hover {
+			background: none;
+		}
+	}
+	.btn-normal-size {
+		padding: 12px 19px;
+	}
+	.icon-in-btn {
+		padding-right: 6px;
+	}
+	.link-title {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+}

@@ -1,0 +1,133 @@
+.woocommerce-cart {
+	.cart {
+		font-weight: 700;
+		&, th, td {
+			border: none;
+		}
+		thead {
+            color: #1F1F1F;
+			font-size: 18px;
+            border: 1px solid #ddd;
+		}
+		td {
+			padding: 0.8em 0.4em;
+		}
+		.cart_item {
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+        }
+        tr:last-child {
+            border-top: 1px solid #ddd;
+        }
+		.product-remove {
+			text-align: center;
+			font-size: 20px;
+		}
+		.quantity-container {
+			width: 120px;
+			text-align: center;
+			border: 1px solid #EEE;
+			> span {
+				cursor: pointer;
+			}
+			.input-text {
+				border: none;
+				text-align: center;
+				margin-bottom: 0;
+			}
+		}
+		.actions {
+			padding: 2em 0;
+		}
+
+        .coupon {
+            #coupon_code {
+                margin-bottom: 0;
+                padding: 13px 15px 12px 15px;
+                font-size: 16px;
+                font-weight: 400;
+                border: none;
+                background-color: #EEEEEE;
+            }
+
+            .button {
+                margin-left: 8px;
+                font-size: 14px;
+                background-color: #222222;
+                color: #fff;
+            }
+        }
+
+        input[name="update_cart"] {
+            font-size: 14px;
+            color: #fff;
+        }
+	}
+}
+.cart_totals {
+	.widget-title {
+        position: relative;
+        padding-left: 23px;
+        padding-bottom: 15px;
+        font-size: 24px;
+        text-align: left;
+
+        &:before {
+            content: "\f00c";
+            @extend %translate-center-y;
+            left: 0;
+            top: 12px;
+            @extend .font-awesome;
+            font-size: 16px;
+        }
+    }
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+    .checkout-button {
+        font-size: 14px;
+        color: #fff;
+        i {
+            margin-right: 7px;
+        }
+    }
+}
+.coupon {
+	#coupon_code {
+		min-width: 270px;
+	}
+}
+
+.woocommerce-cart,
+.woocommerce-checkout {
+	.button {
+		color: #FFF;
+		&:hover {
+			opacity: .8;
+		}
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.woocommerce-cart {
+		.cart {
+			.product-quantity {
+				overflow: hidden;
+				&:before {
+					padding-top: 15px;
+				}
+			}
+			.quantity-container {
+				float: right;
+			}
+			.actions {
+				text-align: center !important;
+				.coupon {
+					input[name="apply_coupon"] {
+						float: none !important;
+					}
+				}
+			}
+		}
+	}
+}

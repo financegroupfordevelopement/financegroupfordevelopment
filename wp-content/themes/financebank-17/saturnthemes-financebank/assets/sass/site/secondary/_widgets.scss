@@ -1,0 +1,273 @@
+.left-sidebar {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+}
+.sidebar {
+    .widget {
+        margin-bottom: 30px;
+        .widget-title {
+            position: relative;
+            padding-left: 23px;
+            padding-bottom: 15px;
+            font-size: 24px;
+            text-align: left;
+            &:before {
+                content: "\f00c";
+                @extend %translate-center-y;
+                left: 0;
+                top: 12px;
+                @extend .font-awesome;
+                font-size: 16px;
+            }
+            &:not(.widget-title-no-line) {
+                &:after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    border-bottom: 2px solid;
+                }
+            }
+        }
+    }
+
+    /**
+     * Text, Banner, MailChimp for WordPress
+     */
+
+
+    /**
+     * Dropdown Type
+     */
+    .widget_archive,
+    .widget_categories,
+    .widget_product_categories {
+        select {
+            width: 100%;
+            height: 50px;
+            padding: 11px 15px;
+            background: #FFF url(../img/arrow-down.png) no-repeat 95% center;
+        }
+    }
+
+    .widget_recent_entries {
+        ul {
+            li {
+                padding: 20px 20px;
+                background: rgba(244,244,244,1);
+                background: -moz-linear-gradient(top, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
+                background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(244,244,244,1)), color-stop(100%, rgba(255,255,255,1)));
+                background: -webkit-linear-gradient(top, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
+                background: -o-linear-gradient(top, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
+                background: -ms-linear-gradient(top, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
+                background: linear-gradient(to bottom, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#ffffff', GradientType=0 );
+                a {
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 1.2em;
+                }
+                .post-date {
+                    margin-top: 10px;
+                    display: block;
+                    &:before {
+                        @extend %fontawesome;
+                        content: "\f017";
+                        display: inline-block;
+                        padding-bottom: 3px;
+                        font-size: 14px;
+                        margin-right: 7px;
+                        line-height: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    .widget_archive,
+    .widget_categories,
+    .widget_meta,
+    .widget_nav_menu {
+        ul {
+            border-left: 1px solid #DDDDDD;
+            border-right: 1px solid #DDDDDD;
+            li {
+                padding: 14px 20px;
+                border-bottom: 1px solid #DDDDDD;
+                transition: all 0.2s;
+                &:hover {
+                    background-color: #323232;
+                    a {
+                        color: #fff;
+                        &:after {
+                            color: #fff;
+                        }
+                    }
+                }
+                a {
+                    display: block;
+                    position: relative;
+                    font-size: 18px;
+                    line-height: 1.2em;
+                    &:after {
+                        @extend .font-awesome;
+                        content: "\f105";
+                        position: absolute;
+                        right: 0;
+                        color: #BBBBBB;
+                    }
+                }
+            }
+        }
+    }
+
+    .widget_nav_menu {
+        margin-bottom: 30px;
+        ul li {
+            padding: 14px 20px;
+            &:first-child {
+                border-top: 2px solid;
+            }
+        }
+    }
+
+    /**
+     * Recent Comments
+     */
+    .widget_recent_comments {
+        .recentcomments {
+            padding: 10px 0;
+            border-bottom: 1px solid #EEE;
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+        .comment-author-link, a {
+            font-weight: bold;
+            line-height: 2;
+
+        }
+    }
+
+    /**
+     * Search
+     */
+    .widget_search,
+    .widget_product_search {
+        .search-form {
+            position: relative;
+            label {
+                margin-bottom: 0;
+                display: block;
+                .search-field {
+                    margin-bottom: 0;
+                    padding: 7px 42px 7px 10px;
+                    height: auto;
+                    width: 100%;
+                }
+            }
+            .search-submit {
+                position: absolute;
+                right: 0;
+                top: 0;
+                z-index: 10;
+                width: 41px;
+                height: 41px;
+                border: none;
+                font-size: 0;
+                padding: 0;
+                &:focus {
+                    outline: none;
+                }
+                background-color: transparent;
+            }
+
+            &:after {
+                content: '\f002';
+                position: absolute;
+                top: 12px;
+                right: 12px;
+                z-index: 5;
+                @extend %fontawesome;
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+    }
+
+    /**
+     * Tag Cloud
+     */
+    .tagcloud {
+        padding-top: 20px;
+        a {
+            display: inline-block;
+            margin: 0 1px 5px 0;
+            padding: 7px 10px 5px 10px;
+            border: 1px solid #EEE;
+            font-size: 13px;
+        }
+    }
+
+    .widget_woothemes_testimonials {
+        .testimonials-list {
+            .quote {
+                .testimonials-text {
+                    position: relative;
+                    padding: 30px;
+                    background-color: transparent;
+                    border: 3px solid #EEEEEE;
+                    p {
+                        position: relative;
+                        z-index: 10;
+                    }
+                    &:before {
+                        content: "\f10e";
+                        @extend .font-awesome;
+                        position: absolute;
+                        z-index: 5;
+                        top: 20px;
+                        right: 20px;
+                        font-size: 50px;
+                        color: #EEEEEE;
+                    }
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        display: inline-block;
+                        width: 20px;
+                        height: 17px;
+                        transform: translateY(calc(100% - 3px));
+                        background: url("../img/page-sidebar-testimonial-arrow.jpg") no-repeat;
+                    }
+                }
+                img {
+                    float: left;
+                    margin-right: 13px;
+                    border-radius: 100px;
+                }
+                cite {
+                    font-style: normal;
+                    span {
+                        display: block;
+                    }
+                    span:first-child {
+                        margin-top: 31px;
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #212121;
+                    }
+                    .title {
+                        margin-top: -1px;
+                        color: #777777;
+                    }
+                }
+            }
+        }
+    }
+
+}

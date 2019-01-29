@@ -1,0 +1,17 @@
+.vc_custom_heading {
+    h2 {
+        i {
+            font-size: 16px;
+            margin-right: 5px;
+        }
+    }
+    &.heading-icon-red {
+        h2 {
+            display: flex;
+            align-items: center;
+            i {
+                margin-right: 13px;
+            }
+        }
+    }
+}

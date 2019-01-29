@@ -1,0 +1,151 @@
+/**
+     * Woocommerce Widgets Filter by Attributes
+     */
+.yith-woo-ajax-navigation {
+    .yith-wcan-list {
+        li {
+            padding-bottom: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: capitalize;
+            .count {
+                float: right;
+                font-size: 100%;
+                &:before {
+                    content: "(";
+                }
+                &:after {
+                    content: ")";
+                }
+            }
+        }
+    }
+}
+
+/**
+ * Woocommerce Widget Price Filter
+ */
+.widget_price_filter {
+    overflow: hidden;
+    .widget-title {
+        &:after {
+            display: none;
+        }
+    }
+    form {
+        padding: 7px 0 16px 0;
+    }
+    .price_slider {
+        height: 3px;
+        &:before {
+            content: "";
+            position: absolute;
+            top: 2px;
+            display: block;
+            width: 100%;
+            height: 3px;
+            background: #DDD;
+        }
+    }
+    .ui-slider {
+        position: relative;
+        text-align: left;
+        .ui-slider-handle {
+            position: absolute;
+            z-index: 2;
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+            outline: none;
+            top: -5px;
+            border-radius: 100%;
+            border: 3px solid transparent;
+            background: #FFF;
+            &:last-child {
+                margin-left: -16px;
+            }
+        }
+        .ui-slider-range {
+            position: absolute;
+            z-index: 1;
+            display: block;
+            border: 0;
+        }
+    }
+    .ui-slider-horizontal {
+        .ui-slider-range {
+            top: 2px;
+            height: 100%;
+        }
+    }
+    #min_price,
+    #max_price {
+        width: 45%;
+        margin-right: 4%;
+        margin-top: 0.3571em;
+        margin-bottom: 1.0714em;
+    }
+    .price_slider_amount {
+        margin-top: 32px;
+        .button {
+            @extend .button-outline;
+            padding: 16px 20px 12px 20px;
+            float: right;
+        }
+        .price_label {
+            padding: 12px 0;
+        }
+    }
+}
+
+/* Product Categories */
+.widget_product_categories {
+    @extend .widget_categories;
+}
+
+/* Top Rated Products */
+.widget_top_rated_products {
+    .product_list_widget {
+        li {
+            padding: 30px 0;
+            &:not(:first-child) {
+                border-top: 1px solid #ddd;
+            }
+            &:last-child {
+                padding-bottom: 15px;
+            }
+            img {
+                float: left !important;
+                margin-right: 12px;
+            }
+            .product-title {
+                display: block;
+                margin-bottom: -2px;
+                font-size: 16px;
+                font-weight: 700;
+            }
+            .star-rating {
+                display: inline-block;
+                span {
+                    position: absolute;
+                    left: 0;
+                    transform: none;
+                }
+            }
+            .woocommerce-Price-amount {
+                display: block;
+                margin-top: -4px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.widget_product_tag_cloud {
+    .tagcloud {
+        a {
+            padding: 8px 15px 6px 15px;
+        }
+    }
+}
